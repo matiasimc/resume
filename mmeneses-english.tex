@@ -60,9 +60,9 @@
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
-\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemii}{$\rightarrow$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -85,16 +85,21 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Universidad de Chile}{Santiago, Chile}
-      {Ingeniería Civil en Computación}{Mar 2012 -- Now}
+      {Computer Science Engineering}{Mar 2012 -- Now}
   \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
+  \resumeSubheading {Calce.org}{Santiago, Chile}{Software Developer}{Nov 2017 - Now}
+  	\resumeItemListStart
+		\resumeItem{Desktop application}
+		{Development of Windows application for 3D scanning and integration with online services using Electron, React.js, Bootstrap, C\#.}
+	\resumeItemListEnd
   \resumeSubheading
     {Telefónica Investigación y Desarrollo }{Santiago, Chile}
-    {Developer}{Mar 2017 - Jun 2017}
+    {Software Developer}{Mar 2017 - Jun 2017}
     \resumeItemListStart
       \resumeItem{Infrastructure as Code}
       {
@@ -103,7 +108,7 @@ Development of software for creating Hadoop environments oriented to Big Data us
 
 
     \resumeSubheading
-      {Centro del Clima y la Resiliencia CR2 }{Santiago, Chile}
+      {Center for Climate and Resilience Research (CR)2}{Santiago, Chile}
       {Data Assistant}{Sep 2016 - Jan 2017}
       \resumeItemListStart
         \resumeItem{Regional Climate Simulations}
@@ -116,7 +121,7 @@ Development of software for creating Hadoop environments oriented to Big Data us
 
         \resumeSubheading
           {Universidad de Chile}{Santiago, Chile}
-          {Assistant Professor, Software Engineering I}{Mar 2016 - Jul 2016}
+          {Course Assistant, Software Engineering I}{Mar 2016 - Jul 2016}
           \resumeItemListStart
             \resumeItem{Github tool}
               {Development of Github visualization tool, using Python, HTML, Javascript, Bootstrap.}
@@ -124,10 +129,10 @@ Development of software for creating Hadoop environments oriented to Big Data us
 
     \resumeSubheading
       {Penta Analytics S.A.}{Santiago, Chile}
-      {Developer}{Sep 2015 - Dec 2015}
+      {Software Developer}{Sep 2015 - Dec 2015}
       \resumeItemListStart
-        \resumeItem{CODELCO migration}
-          {Development of web interface to update and validate database tables with forms, in a project of database migration from CODELCO, using Python, Django, Javascript, Bootstrap.}
+        \resumeItem{Database Maintenance}
+          {Development of web interface for update and validate database tables, using Python, Django, Javascript, Bootstrap, SQL.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -139,10 +144,12 @@ Development of software for creating Hadoop environments oriented to Big Data us
 
 
 %-----------PROJECTS-----------------
-\section{Projects}
+\section{Projects and Coursework}
   \resumeSubHeadingListStart
     \resumeSubItem{Sendero Abierto}
-      {Trekking and Tourism blog \href{http://www.senderoabierto.cl}{senderoabierto.cl}}
+      {Trekking and Tourism blog \href{http://www.senderoabierto.cl}{senderoabierto.cl}. Python, Django, Bootstrap, Digitalocean.}
+    \resumeSubItem{Scala course project} {Development of web application with actor system using Scala, Play, Akka.}
+    \resumeSubItem{Distributed Systems project} {Development of distributed Zatacka game using Java RMI.}
   \resumeSubHeadingListEnd
 
   \section{Languages}
@@ -158,11 +165,12 @@ Development of software for creating Hadoop environments oriented to Big Data us
 \section{Programming Skills}
  \resumeSubHeadingListStart
    \resumeSubItem{Languages}
-   {Java, Python, Javascript, Scala, C, Bash, \LaTeX}
+   {Scala, Python, Java, Coq, Javascript, C, Bash, \LaTeX}
    \resumeSubItem{Technologies}
-   {Ansible, OpenStack, Ambari, Django, Linux}
+   {Ansible, OpenStack, Ambari, Django, Git, Linux}
  \resumeSubHeadingListEnd
 
+ %-----------INTERESTS---------
 
 %-------------------------------------------
 \end{document}
